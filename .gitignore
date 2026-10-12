@@ -1,0 +1,24 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+.aws/
+credentials
+config
+
+# Local data
+data/raw/
+data/processed/
+
+# IDE and operating system
+.vscode/
+.DS_Store
+Thumbs.db
